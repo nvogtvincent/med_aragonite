@@ -88,7 +88,7 @@ ax.set_ylabel('Omega')
 
 f.subplots_adjust(hspace=0.0, top=0.95)
 
-f.suptitle('Inorganic aragonite precpitation rate (mmol m-2 d-1) ')
-plt.savefig('/figures/parameter_space.png', dpi=300)
+f.suptitle('Inorganic aragonite precipitation rate (mmol m-2 d-1) ')
+plt.savefig('parameter_space.png', dpi=300)
 
 
