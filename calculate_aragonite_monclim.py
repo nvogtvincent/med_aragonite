@@ -26,7 +26,7 @@ clim_length = 50 # Length of climatology (years, default 10)
 # Parameter processing #######################################################
 ##############################################################################
 
-root_dir = os.path.dirname(os.path.realpath(__file__)) + '/'
+root_dir = os.path.dirname(os.path.realpath(__file__)) + '/../'
 out_fh = (root_dir + 'processed_data/' + fh +'_' +
           str(dec) + '-' + str(dec+clim_length-1) + '_MonClim.nc')
 fh = root_dir + 'processed_data/' + fh + '.nc'

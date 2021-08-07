@@ -21,7 +21,7 @@ model_names = ['UKESM1-0-LL',
                'GFDL-CM4',
                'CanESM5']
 
-root_dir = os.path.dirname(os.path.realpath(__file__))
+root_dir = os.path.dirname(os.path.realpath(__file__)) + '/..'
 data_dir = root_dir + '/processed_data/'
 
 fh = ['TA-pCO2_HISTORICAL',

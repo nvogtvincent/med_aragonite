@@ -14,7 +14,7 @@ from netCDF4 import Dataset
 ##############################################################################
 # File locations #############################################################
 ##############################################################################
-root_dir = os.path.dirname(os.path.realpath(__file__))
+root_dir = os.path.dirname(os.path.realpath(__file__)) + '/..'
 data_dir = root_dir + '/data/'
 
 model_names = ['UKESM1-0-LL_r1i1p1f2',

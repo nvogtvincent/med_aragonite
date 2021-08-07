@@ -58,7 +58,7 @@ ax[1].plot(T_cont, k_lo_p(T_cont), 'b--')
 ax[1].set_xlabel('Temperature (C)')
 ax[1].legend()
 
-plt.savefig('parameters.png', dpi=300)
+plt.savefig('../figures/parameters.png', dpi=300)
 
 
 # Now plot phase diagrams
@@ -89,6 +89,6 @@ ax.set_ylabel('Omega')
 f.subplots_adjust(hspace=0.0, top=0.95)
 
 f.suptitle('Inorganic aragonite precipitation rate (mmol m-2 d-1) ')
-plt.savefig('parameter_space.png', dpi=300)
+plt.savefig('../figures/parameter_space.png', dpi=300)
 
 

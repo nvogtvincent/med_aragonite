@@ -26,9 +26,7 @@ model_names = ['UKESM1-0-LL_r1i1p1f2',
                'CanESM5_r1i1p1f1']
 
 # Array of scenario names
-scenario_names = ['HISTORICAL',
-                  'SSP245',
-                  'SSP585']
+scenario_names = ['SSP245']
 
 # Variables
 sst_var   = 'tos'       # Name of sea surface temperature variable
@@ -53,7 +51,7 @@ Ni = lambda t : (0.0628*t + 0.0985)
 # Parameter processing #######################################################
 ##############################################################################
 
-root_dir = os.path.dirname(os.path.realpath(__file__)) + '/'
+root_dir = os.path.dirname(os.path.realpath(__file__)) + '/../'
 data_dir = root_dir + 'data/'
 proc_dir = root_dir + 'processed_data/'
 
